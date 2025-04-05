@@ -92,10 +92,6 @@ input, select, textarea, button, input:hover, select:hover, textarea:hover, butt
   max-width: 1690px;
   margin: 0 auto;
   padding: 0px 15px
-/* 	 cambios  */
-/*   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
 }
 .no-padding {
   padding: 120px 0
@@ -109,9 +105,7 @@ input, select, textarea, button, input:hover, select:hover, textarea:hover, butt
   background-repeat: no-repeat !important
 }
 .header-info {
-/*   position: absolute; */
-/* 	from absolute to fixed */
-	position:fixed;
+  position: absolute;
   width: 100%;
   display: inline-block;
   text-align: right;
@@ -121,11 +115,6 @@ input, select, textarea, button, input:hover, select:hover, textarea:hover, butt
   right: 0px;
   padding: 15px 25px;
 }
-
-.header-info.scrolled {
-  background: #222;
-}
-
 .header-info::before {
   content: "";
   position: absolute;

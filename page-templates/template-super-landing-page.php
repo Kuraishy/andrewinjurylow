@@ -257,32 +257,5 @@ while (have_posts()) : the_post();
 </section>
 <?php endif;?>
 <?php endif;?>
-
-
-<!-- Areas -->
-<?php if (have_rows('home_areas_we_serve_block')) : ?>
-        <section class="practice-areas-sec areas-we-serve-setion no-padding">
-            <div class="container">
-                <div class="defualt-content-info text-center">
-                    <?php echo get_field('home_areaweserve_heading_content'); ?>
-                </div>
-                <div class="row">
-                    <?php while (have_rows('home_areas_we_serve_block')) : the_row(); ?>
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <div class="practice-areas-block">
-                                <figure> <img src="<?php echo get_sub_field('home_areas_we_serve_block_image'); ?>" alt="area-img-1" width="390" height="338"> </figure>
-                                <div class="practice-areas-block-det">
-                                    <?php echo get_sub_field('home_areas_we_serve_block_content'); ?>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-            </div>
-        </section>
-    <?php endif; ?>
-
-
 <?php endwhile;
 get_footer(); ?>
-

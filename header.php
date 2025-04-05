@@ -62,23 +62,4 @@
       <?php endif; ?>
     </div>
   </div>
-
-	<script>
-    jQuery(() => {
-        // Scroll event handling
-        jQuery(window).on('scroll', function () {
-            if (jQuery(this).scrollTop() > 10) {
-                jQuery('.header-info').addClass('scrolled');
-            } else {
-                jQuery('.header-info').removeClass('scrolled');
-            }
-        });
-    });
-</script>
-
-	
-<!--  HEADER CODE	 -->
-	
-	
-	
 </header>

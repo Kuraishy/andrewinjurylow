@@ -2,7 +2,7 @@
 @media (max-width: 1900px) {}
 @media (max-width: 1800px) {
   .contact-title h2 {
-	font-size: 120px;
+    font-size: 120px;
   }
   .shortcode-coman-btn .coman-btn {
     width: 240px;
@@ -945,9 +945,7 @@
   }
   .header-info {
     padding: 15px 15px;
-/*     position: relative; */
-/* 	 from relative to fixed  */
-	  position:fixed;
+    position: relative;
     background: #000000;
   }
   .header-info .container {
@@ -1354,50 +1352,12 @@
     text-align: center;
   }
 }
-
-/*  changes tablet */
-@media screen and (max-width: 1024px) {
-	/* font mobile	 */
-	.contact-title h3{
-		  font-size: 90px;
-	}
-	.contact-title h3 small{
-		font-size: 72%;
-		right:0px;
-		padding-right:15px;
-		padding-left:15px;
-	}
-	.contact-title::before{
-		top:70%;
-	}
-	
-}
-
 @media (max-width: 576px) {
-/*   .container {
+  .container {
     max-width: 100% !important;
     width: 100% !important;
     padding: 0px 20px !important;
-	  changes	   
-	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  } */
-	/* font mobile	 */
-	.contact-title h3{
-		  font-size: 90px;
-	}
-	.contact-title h3 small{
-		font-size: 72%;
-		right:18px;
-		padding-right:0px;
-		padding-left:0px;
-
-	}
-	.contact-title::before{
-		top:82%;
-	}
-	
+  }
   /*defualt-content-info--defualt-content-info--defualt-content-info*/
   .defualt-content-info h1, h1 {
     font-size: 33px;
