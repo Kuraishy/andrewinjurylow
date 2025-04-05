@@ -1,0 +1,200 @@
+.practice-areas-sec .row {
+  margin: 0px -15px;
+}
+.practice-areas-sec [class*="col-"] {
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+.practice-areas-block {
+  background: #16213e;
+  text-align: left;
+  height: 100%;
+}
+.practice-areas-sec .practice-areas-block h4 {
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+}
+.practice-areas-sec .practice-areas-block h4::before {
+  background: #f5a200;
+  bottom: 0px;
+  left: 0px;
+  width: 60px;
+  height: 3px;
+  content: "";
+  position: absolute;
+}
+.practice-areas-sec .practice-areas-block h4::after {
+  background: rgba(255, 255, 255, 0.1);
+  bottom: 1px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  content: "";
+  position: absolute;
+}
+.practice-areas-sec .practice-areas-block h4 a {
+  color: #fff;
+  font-weight: normal;
+}
+.practice-areas-sec .practice-areas-block h4 a:hover, .practice-areas-sec .practice-areas-block h4 a:focus {
+  color: #f5a200;
+}
+.practice-areas-sec .practice-areas-block p {
+  color: #fff;
+  margin-bottom: 0px !important;
+  font-size: 15px;
+}
+.practice-areas-sec .practice-areas-block p a {
+  font-weight: bold;
+  color: #f5a200;
+}
+.practice-areas-sec .practice-areas-block p a:hover, .practice-areas-sec .practice-areas-block p a:focus {
+  color: #fff;
+}
+.practice-areas-sec .practice-areas-block .practice-areas-block-det {
+  padding: 35px;
+  padding-top: 10px !important;
+}
+.practice-areas-sec .practice-areas-block figure, .practice-areas-sec .practice-areas-block figure img {
+  margin-bottom: 0px;
+  width: 100%;
+  position: relative;
+}
+.practice-areas-sec .practice-areas-block figure::before {
+  content: "";
+  background: rgb(22, 33, 62);
+  background: -moz-linear-gradient(0deg, rgba(22, 33, 62, 1) 0%, rgba(22, 33, 62, 0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(22, 33, 62, 1) 0%, rgba(22, 33, 62, 0) 100%);
+  background: linear-gradient(0deg, rgba(22, 33, 62, 1) 0%, rgba(22, 33, 62, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#16213e", endColorstr="#16213e", GradientType=1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+@media (max-width: 2000px) {}
+@media (max-width: 1900px) {}
+@media (max-width: 1800px) {}
+@media (max-width: 1700px) {}
+@media (max-width: 1600px) {}
+@media (max-width: 1500px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 30px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 22px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 25px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 21px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 14px;
+  }
+  .practice-areas-sec .row {
+    margin: 0px -10px;
+  }
+  .practice-areas-sec [class*="col-"] {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 20px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 20px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 17px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 18px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 13px;
+  }
+  .practice-areas-sec .row {
+    margin: 0px -10px;
+  }
+  .practice-areas-sec [class*="col-"] {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 15px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 18px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 13px;
+  }
+  .practice-areas-sec .row {
+    margin: 0px -10px;
+  }
+  .practice-areas-sec [class*="col-"] {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 30px 15px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 22px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 14px;
+  }
+  .practice-areas-sec .row {
+    margin: 0px -10px;
+  }
+  .practice-areas-sec [class*="col-"] {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 30px 15px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 22px;
+  }
+  .practice-areas-sec .practice-areas-block p {
+    font-size: 15px;
+  }
+  .practice-areas-sec .row {
+    margin: 0px -10px;
+  }
+  .practice-areas-sec [class*="col-"] {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .practice-areas-sec .practice-areas-block .practice-areas-block-det {
+    padding: 30px 15px;
+  }
+  .practice-areas-sec .practice-areas-block h4 {
+    font-size: 22px;
+  }
+}

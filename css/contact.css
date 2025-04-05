@@ -1,0 +1,418 @@
+.coman-form form {
+  text-align: center;
+}
+.gform_wrapper .gform_validation_errors {
+  background: none !important;
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  margin-bottom: 10 !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: 100% !important;
+}
+.gform_wrapper .gform_validation_errors > h2:after {
+  display: none;
+}
+.gform_wrapper .gfield_validation_message, .gform_wrapper .validation_message {
+  background: none !important;
+  border: none !important;
+  font-size: 14px !important;
+  margin-top: 0px !important;
+  padding: 0px !important;
+}
+.gform_confirmation_message {
+  color: green !important;
+}
+.gfmc-container {
+  justify-content: center;
+  display: block !important;
+}
+.gform_wrapper.gravity-theme .gform_footer, .gform_wrapper.gravity-theme .gform_page_footer, .cct-main .cct-sidebar .cct-practice-area-contact-form .gform_footer {
+  margin: 0px !important;
+  padding: 0px !important;
+  justify-content: center;
+  position: relative;
+  display: inline-block !important;
+  width: 100%;
+  text-align: center;
+}
+.gform-icon.gform-icon--close {
+  display: none !important;
+}
+.gfmc-field div:not(.gchoice) {
+  padding-bottom: 0px !important;
+}
+.gform_wrapper.gravity-theme .gform_fields {
+  grid-column-gap: unset !important;
+  -ms-grid-columns: (1fr 2%) [12] !important;
+  grid-row-gap: unset !important;
+  display: unset !important;
+  grid-template-columns: repeat(12, 1fr) !important;
+  grid-template-rows: repeat(auto-fill, auto) !important;
+  width: 100% !important;
+}
+.coman-form .gfmc-container .gfield.gfmc-column.gfmc-field {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: unset !important;
+  justify-content: start !important;
+}
+.gfield_required.gfield_required_text {
+  display: none !important;
+}
+/*----------------------form-css----------------------*/
+.coman-form .gfield_label.gform-field-label {
+  clip: unset;
+  word-wrap: normal !important;
+  border: 0;
+  -webkit-clip-path: unset;
+  clip-path: unset;
+  height: auto;
+  margin: 0px 0px 10px 0px !important;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+}
+.coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px !important;
+  font-weight: 700;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 0;
+  padding: 18px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: right 20px center !important;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 20px !important;
+}
+.coman-form input[type="text"]:hover, .coman-form input[type="tel"]:hover, .coman-form input[type="email"]:hover, .coman-form textarea:hover, .coman-form input[type="text"]:focus, .coman-form input[type="tel"]:focus, .coman-form input[type="email"]:focus, .coman-form textarea:focus, .coman-form .gfield_select:hover, .coman-form .gfield_select:focus {
+  background-color: #fff !important;
+  color: #222;
+}
+.coman-form textarea {
+  height: 140px !important;
+  padding-top: 20px !important;
+}
+.coman-form .gform_button {
+  font-size: 18px;
+  color: #ffffff;
+  background: #f5a200;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  padding-right: 87px !important;
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0px !important;
+  background: url("../images/btn-arrow.png") #f5a200 right 55px center no-repeat;
+  border-radius: 50px;
+}
+.coman-form .gform_footer {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+.coman-form .gform_button:hover, .coman-form .gform_button:focus {
+  background: url("../images/btn-arrow.png") #222 right 55px center no-repeat;
+  color: #fff;
+}
+.coman-form input[type="text"]::placeholder, .coman-form input[type="tel"]::placeholder, .coman-form input[type="email"]::placeholder, .coman-form textarea::placeholder, .coman-form .gfield_select::placeholder {
+  color: #ffffff !important;
+  opacity: 1;
+  font-weight: bold !important;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.coman-form input[type="text"]:hover::placeholder, .coman-form input[type="tel"]:hover::placeholder, .coman-form input[type="email"]:hover::placeholder, .coman-form textarea:hover::placeholder, .coman-form .gfield_select:hover, .coman-form .gfield_select:hover, .coman-form input[type="text"]:focus::placeholder, .coman-form input[type="tel"]:focus::placeholder, .coman-form input[type="email"]:focus::placeholder, .coman-form textarea:focus::placeholder, .coman-form .gfield_select:focus, .coman-form .gfield_select:focus {
+  color: #222222 !important;
+  opacity: 1;
+  font-weight: bold !important;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.coman-form input[type="text"] {
+  background: url("../images/contact-profile-icon.png");
+}
+.coman-form input[type="text"]:hover, .coman-form input[type="text"]:focus {
+  background: url("../images/contact-profile-icon-hover.png");
+}
+.coman-form input[type="email"] {
+  background: url("../images/contact-email-icon.png");
+}
+.coman-form input[type="email"]:hover, .coman-form input[type="email"]:focus {
+  background: url("../images/contact-email-icon-hover.png");
+}
+.coman-form input[type="tel"] {
+  background: url("../images/contact-tel-icon.png");
+}
+.coman-form input[type="tel"]:hover, .coman-form input[type="tel"]:focus {
+  background: url("../images/contact-tel-icon-hover.png");
+}
+.footer-contact-form {
+  background: #fff;
+  padding: 80px 64px;
+}
+.footer-contact-form.defualt-content-info h2 {
+  color: #171717;
+}
+.footer-contact-form.defualt-content-info .coman-form input[type="text"], .footer-contact-form.defualt-content-info .coman-form input[type="tel"], .footer-contact-form.defualt-content-info .coman-form input[type="email"], .footer-contact-form.defualt-content-info .coman-form textarea, .footer-contact-form.defualt-content-info .coman-form .gfield_select {
+  background-color: rgba(243, 244, 246, 1) !important;
+}
+.footer-contact-form.defualt-content-info .coman-form input[type="text"]:hover, .footer-contact-form.defualt-content-info .coman-form input[type="tel"]:hover, .footer-contact-form.defualt-content-info .coman-form input[type="email"]:hover, .footer-contact-form.defualt-content-info .coman-form textarea:hover, .footer-contact-form.defualt-content-info .coman-form .gfield_select:hover, .footer-contact-form.defualt-content-info .coman-form input[type="text"]:focus, .footer-contact-form.defualt-content-info .coman-form input[type="tel"]:focus, .footer-contact-form.defualt-content-info .coman-form input[type="email"]:focus, .footer-contact-form.defualt-content-info .coman-form textarea:focus, .footer-contact-form.defualt-content-info .coman-form .gfield_select:focus {
+  background-color: #9e1d37 !important;
+}
+.footer-contact-form.defualt-content-info .coman-form .gform_footer i {
+  background: #171717;
+  color: #fff;
+}
+.footer-contact-form.defualt-content-info .call-info p {
+  color: #cccccc;
+}
+.footer-contact-form.defualt-content-info .call-info .tel-link {
+  color: #9e1d37 !important;
+}
+.footer-contact-form.defualt-content-info .call-info .tel-link:hover, .footer-contact-form.defualt-content-info .call-info .tel-link:focus {
+  color: #171717 !important;
+}
+/*----------------------form-css----------------------*/
+.coman-form .gfmc-container .gfield.gfmc-column.gfmc-field {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin: 0px -10px !important;
+  flex-direction: unset !important;
+  justify-content: center !important;
+}
+.coman-form .gfmc-container .gfield.gfmc-column.gfmc-field .gfield {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  position: relative !important;
+  width: 50% !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  margin-bottom: 0px !important;
+}
+.gform_ajax_spinner {
+  display: none !important;
+}
+.coman-form .gfmc-column-inn {
+  margin-bottom: 0px !important;
+}
+.form-info.text-center.bg {
+  background-color: #16213e !important;
+  padding: 55px;
+  background-size: 100% auto !important;
+  background-position: top center !important;
+  padding-top: 341px !important;
+}
+.coman-form h2 {
+  text-align: center;
+  color: #fff;
+}
+.coman-form h2 small {
+  font-size: 100%;
+  color: #f5a200;
+}
+.coman-form p {
+  text-align: center;
+  color: #fff;
+}
+.call-info p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.coman-side-bar .coman-form h3 {
+  text-align: center;
+  color: #fff;
+}
+.coman-side-bar  .coman-form h3 small {
+  font-size: 100%;
+  color: #f5a200;
+}
+.coman-side-bar .form-info.text-center.bg{
+	padding: 34px 34px 60px 34px;
+	padding-top: 222px !important;
+}
+.coman-side-bar .coman-form .gfmc-container .gfield.gfmc-column.gfmc-field .gfield {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  position: relative !important;
+  width: 100% !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  margin-bottom: 0px !important;
+}
+.coman-side-bar .coman-form input[type="text"], .coman-form input[type="tel"],
+.coman-side-bar .coman-form input[type="email"],
+.coman-side-bar .coman-form textarea,
+.coman-side-bar .coman-form .gfield_select{
+	margin-bottom: 15px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .coman-form .gfmc-container .gfield.gfmc-column.gfmc-field .gfield {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+/*  https://panorama-ins.com/contact/  https://www.weekslawfirm.net/career-contact/  https://www.mindvibe.com/intake-referral/ --radio---btn-*/
+@media (max-width: 1600px) {
+  .form-info.text-center.bg {
+    padding: 45px;
+  }
+}
+@media (max-width: 1600px) {
+  .form-info.text-center.bg {
+    padding: 40px;
+  }
+}
+@media (max-width: 1500px) {
+  .form-info.text-center.bg {
+    padding: 35px;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 55px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1400px) {
+  .form-info.text-center.bg {
+    padding: 30px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 54px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1300px) {
+  .form-info.text-center.bg {
+    padding: 25px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 51px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) {
+  .form-info.text-center.bg {
+    padding: 20px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 50px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1100px) {
+  .form-info.text-center.bg {
+    padding: 15px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 48px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .form-info.text-center.bg {
+    padding: 40px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 50px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .form-info.text-center.bg {
+    padding: 20px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 50px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .form-info.text-center.bg {
+    padding: 15px;
+  }
+  .form-info.text-center.bg {
+    padding-top: 50% !important;
+  }
+  .coman-form input[type="text"], .coman-form input[type="tel"], .coman-form input[type="email"], .coman-form textarea, .coman-form .gfield_select {
+    height: 50px;
+    font-size: 15px !important;
+  }
+  .call-info p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,414 @@
+.sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active {
+  padding: 13px 20px;
+  padding-right: 58px;
+  color: #555;
+  font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 17px;
+  text-decoration: none
+}
+.sm-clean a.current {
+  color: #d23600
+}
+.sm-clean a.disabled {
+  color: #bbb
+}
+.sm-clean a .sub-arrow {
+  top: 50%;
+  margin-top: -2px;
+  right: -12px;
+  width: 0;
+  height: 0;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  background: transparent;
+  border-radius: 0;
+  position: relative
+}
+.sm-clean a.has-submenu {
+  padding-right: 20px !important
+}
+.sm-clean a.has-submenu::after {
+  content: '\f078';
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 900;
+  transition: all 200ms ease-out;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  line-height: .7
+}
+.sm-clean a.has-submenu.highlighted::after {
+  content: '\f077';
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  position: absolute
+}
+.sm-clean ul li a.has-submenu::after {
+  content: '\f105' !important;
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 900;
+  transition: all 200ms ease-out;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%)
+}
+.sm-clean ul li a.has-submenu.highlighted::after {
+  content: '\f105' !important;
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  position: absolute
+}
+.sm-clean > li:first-child > a, .sm-clean > li:first-child > :not(ul) a {
+  border-radius: 5px 5px 0 0
+}
+.sm-clean > li:last-child > a, .sm-clean > li:last-child > *:not(ul) a, .sm-clean > li:last-child > ul, .sm-clean > li:last-child > ul > li:last-child > a, .sm-clean > li:last-child > ul > li:last-child > *:not(ul) a, .sm-clean > li:last-child > ul > li:last-child > ul, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul {
+  border-radius: 0 0 5px 5px
+}
+.sm-clean > li:last-child > a.highlighted, .sm-clean > li:last-child > *:not(ul) a.highlighted, .sm-clean > li:last-child > ul > li:last-child > a.highlighted, .sm-clean > li:last-child > ul > li:last-child > *:not(ul) a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-clean > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted {
+  border-radius: 0
+}
+.sm-clean li {
+  border-top: 1px solid rgba(0, 0, 0, 0.05)
+}
+.sm-clean > li:first-child {
+  border-top: 0
+}
+.sm-clean ul {
+  background: rgba(162, 162, 162, 0.1)
+}
+.sm-clean ul a, .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active {
+  font-size: 16px;
+  border-left: 8px solid transparent
+}
+.sm-clean ul ul a, .sm-clean ul ul a:hover, .sm-clean ul ul a:focus, .sm-clean ul ul a:active {
+  border-left: 16px solid transparent
+}
+.sm-clean ul ul ul a, .sm-clean ul ul ul a:hover, .sm-clean ul ul ul a:focus, .sm-clean ul ul ul a:active {
+  border-left: 24px solid transparent
+}
+.sm-clean ul ul ul ul a, .sm-clean ul ul ul ul a:hover, .sm-clean ul ul ul ul a:focus, .sm-clean ul ul ul ul a:active {
+  border-left: 32px solid transparent
+}
+.sm-clean ul ul ul ul ul a, .sm-clean ul ul ul ul ul a:hover, .sm-clean ul ul ul ul ul a:focus, .sm-clean ul ul ul ul ul a:active {
+  border-left: 40px solid transparent
+}
+@media(min-width:992px) {
+  .sm-clean ul {
+    position: absolute;
+    width: 320px !important;
+    top: 70px !important;
+    background-color: #fff;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px !important;
+    border-bottom: 3px solid #f5a200;
+  }
+  .sm-clean ul ul {
+background: #f7f9fb;
+box-shadow: none !important;
+top: auto !important;
+margin-left: 290px !important;
+z-index: 1;
+border-bottom: none;
+  }
+  .sm-clean li {
+    float: left
+  }
+  .sm-clean.sm-rtl li {
+    float: right
+  }
+  .sm-clean ul li, .sm-clean.sm-rtl ul li, .sm-clean.sm-vertical li {
+    float: none
+  }
+  .sm-clean a {
+    white-space: nowrap
+  }
+  .sm-clean ul a, .sm-clean.sm-vertical a {
+    white-space: normal
+  }
+  .sm-clean .sm-nowrap > li > a, .sm-clean .sm-nowrap > li > :not(ul) a {
+    white-space: nowrap
+  }
+  .sm-clean {
+    padding: 0
+  }
+  .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
+    padding: 12px 12px;
+    color: #555;
+    border-radius: 0 !important
+  }
+  .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
+    color: #d23600
+  }
+  .sm-clean a.current {
+    color: #d23600
+  }
+  .sm-clean a.disabled {
+    color: #bbb
+  }
+  .sm-clean a.has-submenu {
+    padding-right: 24px
+  }
+  .sm-clean a .sub-arrow {
+    top: 50%;
+    margin-top: -2px;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555 transparent transparent transparent;
+    background: transparent;
+    border-radius: 0
+  }
+  .sm-clean a .sub-arrow::before {
+    display: none
+  }
+  .sm-clean li {
+    border-top: 0
+  }
+  .sm-clean ul a, .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+    border: 0 !important;
+    padding: 10px 20px;
+    color: #555
+  }
+  .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+    background: 0;
+    color: #d23600
+  }
+  .sm-clean ul a.current {
+    color: #d23600
+  }
+  .sm-clean ul a.disabled {
+    background: #fff;
+    color: #ccc
+  }
+  .sm-clean ul a.has-submenu {
+    padding-right: 20px
+  }
+  .sm-clean ul a .sub-arrow {
+    right: 8px;
+    top: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #555
+  }
+  .sm-clean ul {
+    background-color: #fff
+  }
+  .sm-clean .scroll-up, .sm-clean .scroll-down {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: rgba(12, 28, 61, 1);
+    height: 20px;
+    display: none !important
+  }
+  .sm-clean .scroll-up:hover, .sm-clean .scroll-down:hover {
+    background-color: #3eb5f1
+  }
+  .sm-clean .scroll-up:hover .scroll-up-arrow {
+    border-color: transparent transparent #fff transparent
+  }
+  .sm-clean .scroll-down:hover .scroll-down-arrow {
+    border-color: #fff transparent transparent transparent
+  }
+  .sm-clean .scroll-up-arrow, .sm-clean .scroll-down-arrow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 6px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #555 transparent
+  }
+  .sm-clean .scroll-down-arrow {
+    top: 8px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555 transparent transparent transparent
+  }
+  .sm-clean.sm-rtl a.has-submenu {
+    padding-right: 12px;
+    padding-left: 24px
+  }
+  .sm-clean.sm-rtl a .sub-arrow {
+    right: auto;
+    left: 12px
+  }
+  .sm-clean.sm-rtl.sm-vertical a.has-submenu {
+    padding: 10px 20px
+  }
+  .sm-clean.sm-rtl.sm-vertical a .sub-arrow {
+    right: auto;
+    left: 8px;
+    border-style: dashed solid dashed dashed;
+    border-color: transparent #555 transparent transparent
+  }
+  .sm-clean.sm-rtl > li > ul::before {
+    left: auto;
+    right: 30px
+  }
+  .sm-clean.sm-rtl > li > ul::after {
+    left: auto;
+    right: 31px
+  }
+  .sm-clean.sm-rtl ul a.has-submenu {
+    padding: 10px 20px !important
+  }
+  .sm-clean.sm-rtl ul a .sub-arrow {
+    right: auto;
+    left: 8px;
+    border-style: dashed solid dashed dashed;
+    border-color: transparent #555 transparent transparent
+  }
+  .sm-clean.sm-vertical {
+    padding: 10px 0;
+    border-radius: 5px
+  }
+  .sm-clean.sm-vertical a {
+    padding: 10px 20px
+  }
+  .sm-clean.sm-vertical a:hover, .sm-clean.sm-vertical a:focus, .sm-clean.sm-vertical a:active, .sm-clean.sm-vertical a.highlighted {
+    background: #fff
+  }
+  .sm-clean.sm-vertical a.disabled {
+    background: #eee
+  }
+  .sm-clean.sm-vertical a .sub-arrow {
+    right: 8px;
+    top: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #555
+  }
+  .sm-clean.sm-vertical > li > ul::before, .sm-clean.sm-vertical > li > ul::after {
+    display: none
+  }
+  .sm-clean.sm-vertical ul a {
+    padding: 10px 20px
+  }
+  .sm-clean.sm-vertical ul a:hover, .sm-clean.sm-vertical ul a:focus, .sm-clean.sm-vertical ul a:active, .sm-clean.sm-vertical ul a.highlighted {
+    background: #eee
+  }
+  .sm-clean.sm-vertical ul a.disabled {
+    background: #fff
+  }
+}
+.sm {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 9999;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+.sm, .sm ul, .sm li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  direction: ltr;
+  text-align: left
+}
+.sm-rtl, .sm-rtl ul, .sm-rtl li {
+  direction: rtl;
+  text-align: right
+}
+.sm > li > h1, .sm > li > h2, .sm > li > h3, .sm > li > h4, .sm > li > h5, .sm > li > h6 {
+  margin: 0;
+  padding: 0
+}
+.sm ul {
+  display: none
+}
+.sm li, .sm a {
+  position: relative
+}
+.sm a {
+  display: block
+}
+.sm a.disabled {
+  cursor: default
+}
+.sm::after {
+  content: "";
+  display: block;
+  height: 0;
+  font: 0/0 serif;
+  clear: both;
+  overflow: hidden
+}
+.sm *, .sm *::before, .sm *::after {
+  box-sizing: inherit
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: 0
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: 0
+}
+.navbar-toggler span {
+  display: block;
+  background-color: #fff;
+  height: 3px;
+  width: 26px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+  position: relative;
+  left: 0;
+  opacity: 1
+}
+.navbar-toggler span:nth-child(1), .navbar-toggler span:nth-child(3) {
+  -webkit-transition: transform .30s ease-in-out;
+  -moz-transition: transform .30s ease-in-out;
+  -o-transition: transform .30s ease-in-out;
+  transition: transform .30s ease-in-out
+}
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 1
+}
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent
+}
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 1
+}
